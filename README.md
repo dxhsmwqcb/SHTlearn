@@ -6,7 +6,7 @@ This repository contains TensorFlow & Torch code scripts and datasets for the pa
 ## Introduction
 This paper proposed a hypergraph-enhanced predictive SSL framework named SHT, for relieving the data sparsity and data noise problem in collaborative filtreing. It builds two views, using the local LightGCN and the global Hypergraph Neural Network (HGNN), respectively. And instead of applying the popular Contrastive Learning (CL) paradigm, it proposes a prediction alignment task as the augmented self-supervised learning task (refer to paper or code for details). Experiments show that such method is able to accelarate and supercharge the training process with effective supervision augmentations. Also, the prediction alignment task is shown capable of denoising edges in the observed graph and giving more explainable samples as introduced in our case study in the following figure.
 
-<img src='case_study.png' width=70% />
+<img src='SHT-main/case_study.png' width=70% />
 
 ## Learn from
 ```
